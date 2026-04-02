@@ -31,7 +31,8 @@ taobao_user_behavior_analysis/
 ├── output/ 
 │ ├── figures/                    # 可视化图表输出  
 │ └── tables/                     # 部分结果表输出
-└── README.md
+├── README.md
+└── README_files/
 ```
 ## 六、数据准备
 
