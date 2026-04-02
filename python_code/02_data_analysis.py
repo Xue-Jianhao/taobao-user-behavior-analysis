@@ -11,11 +11,12 @@ plt.rcParams["axes.unicode_minus"] = False  # 显示负号
 
 # ===== 配置模块：数据库连接参数与输出目录设置 =====
 
+# 该部分代码（db）为示例配置，运行前请按本地数据库环境修改 port、user、password 等连接参数
 db = {
     "host": "localhost",
-    "port": 3306,
-    "user": "root",
-    "password": "0914xjh.",
+    "port": "****",  # 端口
+    "user": "****",  # 用户名
+    "password": "********",  # 密码
     "database": "taobao_analysis",
     "charset": "utf8mb4"
 }
